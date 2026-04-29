@@ -92,7 +92,7 @@ const projects = [
     name: "Portfolio App",
     description: "My personal developer portfolio",
     image: "/me-contact.jpg",
-    url: "https://your-portfolio.vercel.app",
+    url: "https://https://portfolio-react-jade-five.vercel.app/",
   },
 ];
 
