@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import bg from './assets/steve-busch-DdV3gqDbwQ8-unsplash.jpg'
 
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
@@ -16,7 +17,8 @@ const Services = React.lazy(() => import("./pages/Services"))
 
 function App() {
   return (
-    <div className='bg-image m-0' style={{minWidth: '100vh', backgroundImage: 'url(src/assets/steve-busch-DdV3gqDbwQ8-unsplash.jpg)', backgroundPosition: 'center center', backgroundSize: 'cover', overflow: 'hidden'}}>
+    <div className="" style={{backgroundImage: `url(${bg})`, backgroundSize: "cover", backgroundPosition: "center center"}}>
+      
       <React.Suspense
         fallback={<div style={{width: "100%", height: "100vh"}}>
           <Loading />
