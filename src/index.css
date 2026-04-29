@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bs-danger: #f80505;
+}
+
+.text-danger {
+    color: var(--bs-danger) !important;
+}
+
+.bg-danger {
+    background-color: var(--bs-danger) !important;
+}
+
+/* .btn, .btn:hover, .btn:visited, .btn:active, .btn:focus { 
+    text-decoration: none !important;
+} */
+
+.btn-danger {
+    position: relative;
+    background-color: var(--bs-danger) !important;
+    border: 2px solid var(--bs-white) !important;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    z-index: 1;
+}
+
+.btn-danger::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color:  var(--bs-danger) !important;
+    transition: height 0.7s ease;
+    z-index: -1;
+}
+.btn-danger:hover::before {
+    height: 100%;
+    background-color: var(--bs-black) !important;
+}
+.btn-danger:hover {
+    color: var(--bs-white) !important;
+    border: 2px solid var(--bs-danger) !important;
+    filter: brightness(95%);
+    transform: scale(1.2);
+}
+
+.loading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item .nav-link  {
+    transition: all 0.2s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: #f80505;
+    transform: scale(1.2);
+}
+
+.contact-info:hover i {
+    background-color: #000000 !important;
+}
+
+.custom-tooltip{
+    transform: translateX(0) !important;
+}
+
+.custom-tooltip .tooltip-inner {
+  max-width: 20rem;
+  white-space: normal;
+  text-align: left;
+}
+
+.list-group-item {
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.active-danger {
+  background-color: var(--bs-danger) !important;;
+  border-color: var(--bs-danger) !important;
+  color: var(--bs-white) !important;
+}
+
+
+
+
