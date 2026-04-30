@@ -150,7 +150,7 @@ const Resume = () => {
               <div className="ms-5 text-white">
                 <h5 className="mb-3">Federal University of Agriculture, Abeokuta, FUNAAB</h5>
                 <h6 className="mb-3">Bachelor of Science in Mathematics</h6>
-                <p className="mb-3">2011 - 2025</p>
+                <p className="mb-3">2011 - 2015</p>
               </div>
             </div>
           </div>

@@ -13,6 +13,7 @@ const TypedText = () => {
     };
 
     const typed = new Typed(el.current, options);
+    
     return () => {
       typed.destroy();
     };
