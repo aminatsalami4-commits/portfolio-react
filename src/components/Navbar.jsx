@@ -91,21 +91,21 @@ const Navbar = () => {
 
 
                 <div className="d-flex justify-content-evenly w-100 mb-3 gap-1">
-                    <a href="https://wa.me/2347026578749" target="_blank" rel="noopener noreferrer">
+                    <Link to="https://wa.me/2347026578749" target="_blank" rel="noopener noreferrer">
                         <button type="button" className="rounded-circle btn btn-danger p-2 border border-light justify-content-center align-items-center">< FaWhatsapp size={20} color='white' /></button>
-                    </a>
+                    </Link>
 
-                    <a href="https://t.me/MideDev" target="_blank" rel="noopener noreferrer">
+                    <Link to="https://t.me/MideDev" target="_blank" rel="noopener noreferrer">
                         <button type="button" className="rounded-circle btn btn-danger p-2 border border-light justify-content-center align-items-center">< FaTelegram size={20} color='white' /></button>
-                    </a>
+                    </Link>
 
-                    <a href="https://www.instagram.com/zeedigitalsolutions/" target="_blank" rel="noopener noreferrer">
+                    <Link to="https://www.instagram.com/zeedigitalsolutions/" target="_blank" rel="noopener noreferrer">
                         <button type="button" className="rounded-circle btn btn-danger p-2 border border-light justify-content-center align-items-center">< FaInstagram size={20} color='white' /></button>
-                    </a>
+                    </Link>
 
-                    <a href="https://www.linkedin.com/in/salami-aminat-62749b192/" target="_blank" rel="noopener noreferrer">
+                    <Link to="https://www.linkedin.com/in/salami-aminat-62749b192/" target="_blank" rel="noopener noreferrer">
                         <button type="button" className="rounded-circle btn btn-danger p-2 border border-light justify-content-center align-items-center">< FaLinkedin size={20} color='white' /></button>
-                    </a>
+                    </Link>
 
                 </div>
                    

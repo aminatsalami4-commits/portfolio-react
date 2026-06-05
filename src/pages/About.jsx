@@ -62,7 +62,7 @@ const About = () => {
 
             {/* Buttons section */}
             <div className="d-flex flex-column flex-sm-row justify-content-md-center gap-2 gap-sm-5 mb-4 ms-sm-5" style={{ marginLeft: 'auto', marginRight: 'auto' }}>
-              <a href="myCV.pdf" download='AMINAT CV' style={{textDecoration: 'none'}}>
+              <a href="AminatCV.pdf" download='AMINAT CV' style={{textDecoration: 'none'}}>
                 <button type="download" className="btn btn-danger btn-lg d-flex align-items-center gap-2 text-black">
                   <GoDownload size={20} />
                   <b>Download CV</b>
