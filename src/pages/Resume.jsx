@@ -47,7 +47,7 @@ const Resume = () => {
                 <div className=" d-flex align-items-center gap-3">
                   <i className="p-2">< FaLinkedin
                    size={20} color='white' /></i>
-                  <p className="card-text text-light">linkedin.com/in/aminat-salami</p>
+                  <p className="card-text text-light">linkedin.com/in/salami-aminat-62749b192/</p>
                 </div>
               </>
             }

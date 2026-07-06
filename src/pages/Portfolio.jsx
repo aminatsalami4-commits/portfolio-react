@@ -89,10 +89,17 @@ const projects = [
   },
 
   {
+    name: "Zenvest",
+    description: "A modern fintech application",
+    image: "/image_logo.png",
+    url: "https://zenvest-one.vercel.app",
+  },
+
+  {
     name: "Portfolio App",
     description: "My personal developer portfolio",
     image: "/me-contact.jpg",
-    url: "https://https://portfolio-react-jade-five.vercel.app/",
+    url: "https://portfolio-react-jade-five.vercel.app/",
   },
 ];
 
